@@ -260,7 +260,7 @@ abstract class ChartPainter<T extends ChartData<IDataSet<Entry>>>
         x = position.x;
         y = position.y;
       }
-      _descPaint.paint(c, Offset(x, y));
+      //_descPaint.paint(c, Offset(x, y));
     }
   }
 
